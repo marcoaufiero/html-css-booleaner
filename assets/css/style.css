@@ -25,9 +25,30 @@ main, footer{
     height: 500px;
 }
 
+table{
+    text-align: left;
+    border-spacing: 0;
+}
+
+th{
+    background-color: #20A9E5;
+    color: white;
+}
+
+
+.rowcolor{
+    background-color: #B1E5F2;
+}
+
+.column{
+    width: 25%;
+}
+
+
 .timpics1{
-    height: 543px;
-    width: 825px;
+    margin-top: 20px;
+    height: 625px;
+    width: 950px;
     display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
@@ -35,16 +56,25 @@ main, footer{
 }
 
 .timpics2{
-    height: 543px;
-    width: 825px;
+    margin-top: 20px;
+    height: 625px;
+    width: 950px;
     display: inline-block;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url(../img/tim-2.jpg);
 }
 
+.secondsection{
+    font-size: 30px;
+}
+
+.secondsection > *{
+    margin: 40px 0;
+}
+
 .author{
-font-size: 20px;
+font-size: 30px;
 }
 
 .title{
@@ -57,7 +87,7 @@ font-size: 20px;
 }
 
 .photosource{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #booleaners{
