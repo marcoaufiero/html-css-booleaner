@@ -10,6 +10,7 @@ header {
     background-color: #4EA0FF;
     position: relative;
 }
+
 header > img{
     width: 13%;
     position: absolute;
@@ -22,7 +23,6 @@ header > img{
 main, footer{
     width: 80%;
     margin: auto;
-    height: 500px;
 }
 
 table{
@@ -35,6 +35,16 @@ th{
     color: white;
 }
 
+h3{
+    color: grey;
+    font-size: 30px;
+}
+
+h4{
+    padding: 20px 0 0 20px;
+    color: white;
+    font-size: 30px;
+}
 
 .rowcolor{
     background-color: #B1E5F2;
@@ -79,7 +89,6 @@ font-size: 30px;
 
 .title{
     font-size: 470%;
-
 }
 
 .greytext{
@@ -88,6 +97,24 @@ font-size: 30px;
 
 .photosource{
     font-size: 20px;
+}
+
+.footerimg1{
+    margin: 20px 0;
+    height: 300px;
+    width: 425px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/monitor.jpg);
+}
+
+.footerimg2{
+    margin: 20px 0;
+    height: 300px;
+    width: 425px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/graph.jpg);
 }
 
 #booleaners{
